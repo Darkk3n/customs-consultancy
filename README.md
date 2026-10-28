@@ -18,7 +18,7 @@ Originally built as a React application, the site was migrated to Astro to achie
 ### Key Changes:
 - **Framework:** Migrated from React (Vite) to **Astro 6**.
 - **Styling:** Upgraded the usage of **Tailwind CSS 4**, utilizing new features like `@utility` and native CSS variables.
-- **Performance:** Achieved a near-perfect Lighthouse score by leveraging Astro's static site generation (SSG).
+- **Performance:** Leverages Astro's static site generation (SSG) to ship minimal client-side JavaScript.
 - **Architecture:** Implemented a "Bulletproof Arrow Component" using CSS `clip-path` and Flexbox to ensure layout consistency across all screen sizes.
 
 ## 🛠️ Technical Stack - Original First Development
@@ -35,9 +35,7 @@ This project was built to leverage the latest frontend performance standards:
 
 ## ✨ Features
 - **Zero-JS by Default:** Ships no client-side JavaScript unless explicitly needed, maximizing mobile performance.
-- **SEO Ready:** Automated sitemaps and canonical URL handling via Astro's native configuration.
 - **Responsive Architecture:** Fully optimized for Mobile and Desktop users.
-- **Performance Optimized:** Achieves high Lighthouse scores via Vite's optimized build pipeline and tree-shaking.
 - **Modern UI/UX:** Clean, corporate aesthetic tailored for legal and professional services.
 - **Type Safety:** Comprehensive TypeScript implementation to ensure reliable code quality.
 - **Hybrid Legacy Support:** Maintains a src_legacy directory for architectural reference without impacting the production build.
